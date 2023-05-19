@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.min.js"
+      integrity="sha512-3RlxD1bW34eFKPwj9gUXEWtdSMC59QqIqHnD8O/NoTwSJhgxRizdcFVQhUMFyTp5RwLTDL0Lbcqtl8b7bFAzog=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- Generative Design Dependencies here -->
+    <!-- GG Bundled -->
+    <script src="https://cdn.jsdelivr.net/gh/generative-design/Code-Package-p5.js@master/libraries/gg-dep-bundle/gg-dep-bundle.js"></script>
+  </head>
+  <body>
+    <script src="sketch.js"></script>
+    <div className="App w-screen overflow-hidden">
+      <div>
+        <div style="text-align: center">
+          <div
+            id="concept-canvas"
+            style="
+              width: 100vw;
+              height: 100%;
+              position: fixed;
+              top: 0;
+              z-index: -10;
+            "
+          ></div>
+          <div
+            style="
+              background-color: rgb(220 252 231);
+              display: inline-block;
+              margin: auto;
+              padding: 25px;
+              margin: 25px;
+              z-index: 100;
+            "
+          >
+            <div style="max-width: 800px; margin: auto; text-align: left">
+              <h1>A mini-guide to Perchance to Dream:</h1>
+              <p>
+                Perchance to Dream takes place in a world much like our own,
+                where <b>algorithms replace human connection</b>, creative
+                expression is commodified.
+              </p>
+              <p>
+                We seek to <b>push the boundaries of live performance</b>, where
+                the audience themselves are immersed in the story through the
+                very technology that increasingly keeps us apart.
+              </p>
+
+              <h2>Plot</h2>
+              <p>
+                The show follows the story of Hamlet. Without getting too
+                spoilery...Hamlet is a melancholy young man. His father has
+                recently died, and his mother married his uncle very shortly
+                after. The ghost of his father appears to him and reveals that
+                he was murdered. Hamlet decides to feign insanity in order to
+                prove his uncle's guilt, though as the play goes on we begin to
+                wonder what is faked or not.
+              </p>
+
+              <div style="position: relative">
+                <h2>Setting</h2>
+                <img
+                  src="setcollage.jpeg"
+                  style="width: 100%; margin: auto; position: relative"
+                />
+                <div
+                  style="
+                    position: absolute;
+                    top: 40%;
+                    left: 10%;
+                    width: 400px;
+                    background-color: rgba(0, 0, 0, 0.8);
+                    color: white;
+                  "
+                >
+                  <p>
+                    Perchance to Dream takes place entirely at the Elsinore.
+                    It's a music venue & apartment with a storied history, deep
+                    in a city that resembles the Lower East Side in the early
+                    90s but <b>transported to the future</b>, in a world that
+                    resembles, though is not, our own.
+                  </p>
+                </div>
+              </div>
+              <h2>Characters</h2>
+              <div style="text-align: left; margin: auto">
+                <p>
+                  <b>HAMLET</b> Acerbic and melancholy. Heir to his father’s
+                  popular music venue, The Elsinore.
+                </p>
+                <p>
+                  <b>GHOST</b> The ghost of Hamlet’s father. Recently dead under
+                  suspicious circumstances.
+                </p>
+                <p>
+                  <b>OPHELIA</b> Idealistic but with a dark fragility from an
+                  underlying addiction. She lives with her brother and father in
+                  one of the upstairs apartments.
+                </p>
+                <p>
+                  <b>CLAUDIUS</b> Imposing, cunning, gets what he wants. Has
+                  taken over the Elsinore since his brother’s death.
+                </p>
+                <p>
+                  <b>GERTRUDE</b> Elegant, exacting. Listens more than she
+                  speaks. Has married Claudius in the wake of her husband’s
+                  death
+                </p>
+                <p>
+                  <b>HORATIO</b> A realist who cares deeply for others. Hamlet’s
+                  best friend.
+                </p>
+                <p>
+                  <b>LAERTES</b> Confident, handsome with a classic cool edge.
+                  Sibling of Ophelia, overprotective since their mother's
+                  overdose when they were children.
+                </p>
+                <p>
+                  <b>ROSE</b> Former college friend of Hamlet. Here for a good
+                  time, not a long time. The embodiment of chaotic neutral.
+                </p>
+                <p>
+                  <b>GUILDENSTERN</b> Former college friend of Hamlet. An
+                  aspiring politician.
+                </p>
+              </div>
+
+              <h2>Costumes</h2>
+              <div style="position: relative">
+                <img
+                  src="costumecollage.png"
+                  style="width: 100%; margin: auto"
+                />
+                <div
+                  style="
+                    position: absolute;
+                    top: 40%;
+                    left: 10%;
+                    width: 400px;
+                    background-color: rgba(0, 0, 0, 0.8);
+                    color: white;
+                  "
+                >
+                  <p>
+                    We imagine the costumes to be Elizabethan-punk. Taking
+                    inspiration from 90s films such as the Matrix, plus
+                    Elizabethan embellishments like lace collars and dramatic
+                    sleeves.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

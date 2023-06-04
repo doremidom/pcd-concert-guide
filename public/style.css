@@ -22,3 +22,7 @@ h3 {
 a {
   color: white;
 }
+
+.triggerIMAGG:hover {
+  opacity: 0.7;
+}

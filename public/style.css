@@ -26,3 +26,32 @@ a {
 .triggerIMAGG:hover {
   opacity: 0.7;
 }
+
+#photo-grid {
+  margin: auto;
+
+  @media (min-width: 800px) {
+    display: flex;
+  }
+}
+
+#center-photo-grid {
+  @media (min-width: 800px) {
+    width: 33%;
+  }
+}
+
+#small-photo-grid {
+  display: inline;
+}
+
+.video-grid {
+  @media (min-width: 800px) {
+    display: flex;
+  }
+}
+
+.youtube-video {
+  aspect-ratio: 16 / 9;
+  width: 100%;
+}

@@ -97,32 +97,32 @@
                     original Shakespeare text.
                   </p>
                 </div>
-                <section id="photos">
-                  <div style="display: flex">
+                <section id="photos" style="text-align: center">
+                  <div id="photo-grid">
                     <div>
                       <img
                         class="triggerIMAGG"
                         src="/public/concert/7.jpeg"
                         title="Will Riddle as Hamlet"
                         alt="Photo by TJ Ramirez"
-                        width="300px"
+                        style="max-width: 300px"
                       />
                     </div>
 
-                    <div style="width: 33%">
+                    <div id="center-photo-grid">
                       <img
                         class="triggerIMAGG"
                         src="/public/concert/5.jpeg"
                         title="Kate Ly Johnston, Dominique Star, Will Riddle, Sarah Dooley, Travis Harmon"
                         alt="Photo by TJ Ramirez"
-                        width="300px"
+                        style="max-width: 300px"
                       />
                       <img
                         class="triggerIMAGG"
                         src="/public/concert/11.jpeg"
                         title="Will Riddle as Hamlet"
                         alt="Photo by TJ Ramirez"
-                        width="300px"
+                        style="max-width: 300px"
                       />
                     </div>
                     <div>
@@ -131,11 +131,11 @@
                         src="/public/concert/8.jpeg"
                         title="Dominique Star as Ophelia"
                         alt="Photo by TJ Ramirez"
-                        width="300px"
+                        style="max-width: 300px"
                       />
                     </div>
                   </div>
-                  <div style="text-align: center">
+                  <div style="text-align: center" id="small-photo-grid">
                     <img
                       class="triggerIMAGG"
                       src="/public/concert/2.jpeg"
@@ -186,20 +186,17 @@
                 <section id="videos">
                   <h1 style="text-align: center; margin: 10px">Videos</h1>
                   <div>
-                    <div style="display: flex">
+                    <div class="video-grid">
                       <iframe
-                        width="560"
-                        height="315"
+                        class="youtube-video"
                         src="https://www.youtube.com/embed/p5Mem0nhkE4"
                         title="YouTube video player"
                         frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; modestbranding"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share;"
                         allowfullscreen
                       ></iframe>
-
                       <iframe
-                        width="560"
-                        height="315"
+                        class="youtube-video"
                         src="https://www.youtube.com/embed/QJGcyZsW7GY"
                         title="YouTube video player"
                         frameborder="0"
@@ -207,10 +204,9 @@
                         allowfullscreen
                       ></iframe>
                     </div>
-                    <div style="display: flex">
+                    <div class="video-grid">
                       <iframe
-                        width="560"
-                        height="315"
+                        class="youtube-video"
                         src="https://www.youtube.com/embed/635v_Kn0jE8"
                         title="YouTube video player"
                         frameborder="0"
@@ -218,8 +214,7 @@
                         allowfullscreen
                       ></iframe>
                       <iframe
-                        width="560"
-                        height="315"
+                        class="youtube-video"
                         src="https://www.youtube.com/embed/tJ5NnRn9jf8"
                         title="YouTube video player"
                         frameborder="0"
@@ -268,6 +263,11 @@
                   <p className="mt-6">
                     Their previous collaborations have been featured in Rolling
                     Stone, PC Gamer, and the Guardian.
+                  </p>
+
+                  <p>
+                    We're actively seeking to grow our team to help bring this
+                    full production to life.
                   </p>
 
                   <p>

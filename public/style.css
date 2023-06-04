@@ -59,3 +59,10 @@ a:hover {
   aspect-ratio: 16 / 9;
   width: 100%;
 }
+
+a.anchor {
+  display: block;
+  position: relative;
+  top: -250px;
+  visibility: hidden;
+}

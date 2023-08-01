@@ -66,7 +66,6 @@
                 margin-bottom: 12px;
                 margin: auto;
                 padding: 5px;
-                display: flex;
                 justify-content: center;
                 align-items: center;
                 text-align: center;
@@ -75,17 +74,16 @@
               <h1 style="text-align: center; font-size: 30px; color: white">
                 perchance to dream.
               </h1>
-              <div style="text-align: right; width: 50%">
-                <a style="flex: 1" href="#concept">Home</a>
-                <a style="flex: 1" href="#concert">Concert</a>
+              <div style="text-align: right; width: 50%; margin: auto">
+                <a style="flex: 1" href="#concert">Home</a>
                 <a style="flex: 1" href="#videos">Videos</a>
-                <a style="flex: 1" href="#team">Team</a>
                 <a style="flex: 1" href="#concept">Concept</a>
+                <a style="flex: 1" href="#team">Team</a>
               </div>
             </nav>
           </div>
           <div
-            id="concept"
+            id="concert"
             style="
               background-color: rgba(0, 0, 0, 0.5);
               display: inline-block;
@@ -98,10 +96,11 @@
             <div style="max-width: 900px; margin: auto; text-align: left">
               <div style="max-width: 700px; margin: auto; margin-top: 50px">
                 <p>
-                  Perchance to Dream is an exploration of Hamlet told through
-                  the music of Radiohead. It takes place in a world much like
-                  our own, where <b>algorithms replace human connection</b> and
-                  creative expression is commodified.
+                  Perchance to Dream is a cyberpunk, dystopian exploration of
+                  <b>Hamlet</b> told through the music of <b>Radiohead</b>. It
+                  takes place in a world much like our own, where
+                  <b>algorithms replace human connection</b> and creative
+                  expression is commodified.
                 </p>
               </div>
               <section id="photos" style="text-align: center">
@@ -275,13 +274,16 @@
                 <section id="concept">
                   <h2>Concept</h2>
                   <p>
-                    We envision a performance space where the
+                    At the heart of this project is the belief that the
+                    intersection of art and technology can revolutionize live
+                    theatre. We envision a performance space where the
                     <b>audience is a part of the visual narrative</b> through a
                     light device that we've prototyped, inspired by
                     <b
                       >arena concerts and Fireflies on the Water by Yayoi
                       Kusama</b
-                    >.
+                    >. Stylistically, we are inspired equally by 90s
+                    technoparanoia, punk culture, and Elizabethan fashion.
                   </p>
                   <img
                     src="setcollage.jpeg"
@@ -313,23 +315,40 @@
                     through the very technology that increasingly keeps us
                     apart.
                   </p>
-                  <p>
-                    <a href="https://dominiquestar.com" target="_blank"
-                      >Dominique Star</a
-                    >
-                    (concept, book, arrangement) is an actor, singer and
-                    musician with a background in music, theatre, and
-                    technology. She has performed with MIKA and along with
-                    acting, composes music for TV and Film.
-                  </p>
-                  <p>
-                    <a href="https://usdivad.com" target="_blank"> David Su</a>
-                    (musical direction, arrangement) is a recent graduate of the
-                    MIT Media Lab, where he studied under Tod Machover in the
-                    group Opera of the Future. He's particularly interested in
-                    how technology intersects with live performance, along with
-                    creating musical video games.
-                  </p>
+                  <div style="display: flex; align-items: center; gap: 12px">
+                    <img
+                      class="team"
+                      src="/public/dstar.jpeg"
+                      style="width: 150px"
+                    />
+                    <p>
+                      <a href="https://dominiquestar.com" target="_blank"
+                        >Dominique Star</a
+                      >
+                      (concept, book, arrangement) is an actor, singer and
+                      musician with a background in music, theatre, and
+                      technology. She has performed with MIKA and along with
+                      acting, composes music for TV and Film.
+                    </p>
+                  </div>
+                  <div style="display: flex; align-items: center; gap: 12px">
+                    <p>
+                      <a href="https://usdivad.com" target="_blank">
+                        David Su</a
+                      >
+                      (musical direction, arrangement) is a recent graduate of
+                      the MIT Media Lab, where he studied under Tod Machover in
+                      the group Opera of the Future. He's particularly
+                      interested in how technology intersects with live
+                      performance, along with creating musical video games.
+                    </p>
+                    <img
+                      src="/public/dsu.jpg"
+                      style="width: 150px"
+                      class="team"
+                    />
+                  </div>
+
                   <p>
                     We're actively seeking to <b>grow our team</b> to help bring
                     the full production to life.
@@ -354,7 +373,7 @@
       rel="stylesheet"
       type="text/css"
     />
-    <div style="position: fixed; bottom: 0">
+    <div style="position: fixed; bottom: 0" id="socials">
       <div id="mc_embed_signup">
         <form
           action="https://perchancetodream.us21.list-manage.com/subscribe/post?u=974c8344c148aafe9cd782338&amp;id=1edbcd51a8&amp;f_id=0030d6e1f0"
@@ -414,6 +433,33 @@
             </div>
           </div>
         </form>
+        <div
+          style="
+            margin-left: 24px;
+            align-items: center;
+            display: flex;
+            gap: 10px;
+          "
+        >
+          <a
+            href="https://www.instagram.com/__perchancetodream/"
+            target="_blank"
+            title="instagram"
+            ><img src="/public/ig.png" style="width: 24px"
+          /></a>
+          <a
+            href="https://www.tiktok.com/@dominique_star"
+            target="_blank"
+            title="tiktok"
+            ><img src="/public/tiktok.png"
+          /></a>
+          <a
+            href="https://www.instagram.com/__perchancetodream/"
+            target="_blank"
+            title="youtube"
+            ><img src="/public/yt.png" style="width: 24px"
+          /></a>
+        </div>
       </div>
     </div>
     <script

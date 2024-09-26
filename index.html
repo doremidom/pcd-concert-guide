@@ -11,6 +11,15 @@
         background-color: black;
         clear: left;
       }
+
+      #links {
+        display: none;
+      }
+      @media screen and (min-width: 600px) {
+        #links {
+          display: block;
+        }
+      }
       /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
 	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
     </style>
@@ -63,7 +72,10 @@
               <h1 style="text-align: center; font-size: 30px; color: white">
                 perchance to dream.
               </h1>
-              <div style="text-align: right; width: 50%; margin: auto">
+              <div
+                style="text-align: right; width: 50%; margin: auto"
+                id="links"
+              >
                 <a style="flex: 1" href="#concert">Home</a>
                 <a style="flex: 1" href="#videos">Videos</a>
                 <a style="flex: 1" href="#concept">Concept</a>
@@ -232,6 +244,7 @@
                     >
                     that showed the audience concept sets and inspiration.
                   </p>
+                  <a class="anchor" id="videos"></a>
                   <p style="text-align: center">
                     Here's our creative team explaining the concept behind No
                     Surprises & How to Disappear Completely and the role they
